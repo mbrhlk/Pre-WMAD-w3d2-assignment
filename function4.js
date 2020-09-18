@@ -5,7 +5,13 @@
 let example = [1, 'dog', 3, 'eight', 5, 'car', 7, 8];
 
 const logStringsAndNumbers = function (arr) {
-
+  for(var i = 0; i < arr.length; i++) {
+    if(isNaN(arr[i])) {
+      console.log(arr[i] + ' this is a string')
+    } else {
+      console.log(arr[i])
+    }
+  }
 };
 
 logStringsAndNumbers(example);
