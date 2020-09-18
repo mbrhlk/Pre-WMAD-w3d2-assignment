@@ -4,10 +4,7 @@
 let food = ['apple', 'orange', 'cake', 'carrots', 'pasta', 'rice', 'eggs'];
 
 const addHooray = function (arr) {
-  for (i = 0; i < arr.length; i++) {
-    arr[i] = arr[i] + "Hooray"
-  }
-  console.log(arr)
+
 };
 
 addHooray(food);

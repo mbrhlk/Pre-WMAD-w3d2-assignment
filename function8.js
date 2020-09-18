@@ -9,3 +9,4 @@ const splitSentence= function (str) {
 };
 
 splitSentence(sentence);
+
